@@ -1,0 +1,1 @@
+g++ -o FirstProgram src/main.cpp

@@ -1,16 +1,15 @@
 #include <iostream>
-#include "firstheader.h"
+#include <string>
+#include "firstheader.hpp"
 
 using namespace std;
 
 int main() { 
-  
-    // Given two numbers 
-    int a = 13, b = 22; 
-  
-    // Function declared in header 
-    // file to find the sum 
-    cout << "Sum is: "
-         << sumOfTwoNumbers(a, b);         
+	
+	string name;
 
+	cout << "What is your name?: ";
+	cin >> name;
+
+	cout << NameFunction(name);
 }
